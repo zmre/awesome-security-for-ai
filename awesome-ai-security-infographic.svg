@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 2200 1700" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="0 0 2200 1700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
   <defs>
     <linearGradient id="backdrop" gradientUnits="userSpaceOnUse" bx:pinned="true">
       <stop style="stop-color: rgb(22, 21, 94)"/>
@@ -12,7 +12,7 @@
     <title>backdrop</title>
   </rect>
   <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 42px; font-weight: 700; white-space: pre; pointer-events: none;" transform="matrix(1, 0, 0, 1, -56.752972, 12.543008)"><title>title</title><tspan x="133.159" y="90.865">Awesome Security Solutions for AI Systems, The Infographic</tspan><tspan x="133.159" dy="1em">​</tspan></text>
-  <a style="pointer-events: none;cursor:pointer;" href="https://github.com/zmre/awesome-security-for-ai/">
+  <a style="" xlink:href="https://github.com/zmre/awesome-security-for-ai/">
     <text style="fill: rgb(182, 189, 216); font-family: Arial, sans-serif; font-size: 24px; white-space: pre;" transform="matrix(1, 0, 0, 1, -68.826088, -185.396393)" y="311.5539855957031"><title>subtitle</title><tspan x="143.03199768066406" dy="1em">​</tspan><tspan>Open source, creative commons, based on the awesome list on Github at </tspan><tspan style="fill: rgb(95, 238, 250); text-decoration: underline solid rgba(255, 255, 255, 0.8);">zmre/awesome-security-for-ai</tspan></text>
   </a>
   <g>
