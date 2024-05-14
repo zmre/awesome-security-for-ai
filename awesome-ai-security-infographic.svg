@@ -12,7 +12,9 @@
     <title>backdrop</title>
   </rect>
   <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 42px; font-weight: 700; white-space: pre; pointer-events: none;" transform="matrix(1, 0, 0, 1, -56.752972, 12.543008)"><title>title</title><tspan x="133.159" y="90.865">Awesome Security Solutions for AI Systems, The Infographic</tspan><tspan x="133.159" dy="1em">​</tspan></text>
-  <a xlink:href="https://github.com/zmre/awesome-security-for-ai/"><text style="fill: rgb(182, 189, 216); font-family: Arial, sans-serif; font-size: 24px; white-space: pre;" transform="matrix(1, 0, 0, 1, -68.826088, -185.396393)" y="311.5539855957031"><title>subtitle</title><tspan x="143.03199768066406" dy="1em">​</tspan><tspan>Open source, creative commons, based on the awesome list on Github at </tspan><tspan style="fill: rgb(95, 238, 250); text-decoration: underline solid rgba(255, 255, 255, 0.8);">zmre/awesome-security-for-ai</tspan></text></a>
+  <a style="pointer-events: none;cursor:pointer;" href="https://github.com/zmre/awesome-security-for-ai/">
+    <text style="fill: rgb(182, 189, 216); font-family: Arial, sans-serif; font-size: 24px; white-space: pre;" transform="matrix(1, 0, 0, 1, -68.826088, -185.396393)" y="311.5539855957031"><title>subtitle</title><tspan x="143.03199768066406" dy="1em">​</tspan><tspan>Open source, creative commons, based on the awesome list on Github at </tspan><tspan style="fill: rgb(95, 238, 250); text-decoration: underline solid rgba(255, 255, 255, 0.8);">zmre/awesome-security-for-ai</tspan></text>
+  </a>
   <g>
     <title>awesome-logo</title>
     <path d="M 2133.309 86.85 L 2106.398 62.164 L 2102.613 66.29 L 2125.038 86.85 L 2036.646 86.85 L 2059.071 66.272 L 2055.286 62.146 L 2028.374 86.85 L 2028.357 86.85 L 2028.357 103.122 C 2028.357 110.478 2035.444 116.47 2044.144 116.47 L 2060.739 116.47 C 2069.441 116.47 2076.528 110.478 2076.528 103.122 L 2076.528 92.43 L 2085.139 92.43 L 2085.139 103.122 C 2085.139 110.478 2092.225 116.47 2100.927 116.47 L 2117.522 116.47 C 2126.222 116.47 2133.309 110.478 2133.309 103.122 L 2133.309 86.85 Z" style="fill: rgb(255, 255, 255);">
