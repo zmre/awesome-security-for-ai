@@ -12,8 +12,17 @@ If you want to contribute, create a PR.
 * [deepspaceharbor/awesome-ai-security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security)
 * [awesome-ai-for-cybersecurity](https://github.com/Billy1900/Awesome-AI-for-cybersecurity)
 * [awesome-ai-safety](https://github.com/hari-sikchi/awesome-ai-safety)
+* [awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - A curation of awesome tools, documents and projects about LLM Security.
+* [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks) - An awesome list of papers on privacy attacks against machine learning.
+* [awesome-ml-security](https://github.com/trailofbits/awesome-ml-security)
 
-## ToC
+## Infographic
+
+As an experiment, we'll try to keep an [infographic of awesome ai security solutions](awesome-ai-security-infographic.svg) up-to-date as an open source SVG file. This will be a fast visual overview with a mix of logos and text.
+
+<a xlink:href="http://localhost" xlink:title="">
+
+## Solution Categories
 
 * [Confidential Computing](#confidential-computing)
 * [Encryption](#encryption)
@@ -27,45 +36,65 @@ If you want to contribute, create a PR.
 ------
 
 ## Confidential Computing
-...
+
+* Fortanix
+* Opaque Systems - Confidential compute models
 
 ## Encryption
-...
+
+* [IronCore Labs' Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/)
 
 ## Governance
-...
+
 
 ## Model Protection
-...
+
+* Robust Intelligence
+* Protect AI
+* HiddenLayer
+  * Protects models from inversion
+  * New 2024-03-21: have prompt firewall
+* Cranium
+* Adversa
+* Advai
+* Mindgard AI
+* LLM Guard
+* CredoAI
 
 ## Prompt Firewall
-...
+
+* CalypsoAI
+* Robust Intelligence
+* HiddenLayer
+* AIShield
+* RebuffAI
+* Lakera AI
+* TripleBlind ??
+* Prompt Security
 
 
 ## QA
-...
+
+* Freeplay AI
+* Patronus AI (is this the right category?)
+* Arthur
 
 ## Training Protection
-...
+
+* Mostly AI
+* Synthesis AI
+* Assembly AI
+* Private-AI
+* Protopia AI
+* DynamoFL
+* CalypsoAI - Audits sensitive data and prevents data from getting into outside AI models.
 
 
 ------
 
 ## Contributing
 
-Please ensure your pull request adheres to the following guidelines:
+Contributions are welcome.  Add new items, suggest changes to categories or descriptions, etc. We're not aiming to be comprehensive, but to provide a short list of the most notable solutions in each category.
 
-- Read [the awesome manifesto](https://github.com/sindresorhus/awesome/blob/master/awesome.md) and ensure your entry complies.
-- Search previous suggestions before making a new one, as yours may be a duplicate.
-- Make sure your entry is useful before submitting. That implies it having a good succinct description and solving problems well.
-- Make an individual pull request for each suggestion.
-- Titles should be [capitalized](http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html).
-- Use the following format: `* [Solution Name](link) -- description`
-- Link additions should be added to the bottom of the relevant category.
-- New categories or improvements to the existing categorization are welcome.
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-- The pull request and commit should have a useful title.
-- More detailed instructions and a walkthrough can be found in the [main awesome contributing doc](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
+That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](./contributing.md) file in this repo.
 
-Thank you for your suggestions!
