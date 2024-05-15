@@ -1,12 +1,14 @@
 # Awesome Security Solutions for AI Systems [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+## Intro
+
 A curated list of awesome solutions to hard AI security problems and risks.  This stands in contrast to using AI for security (for offense or defense) and is explicitly meant to link to software and solutions that help solve the problems
 
 Other lists cover the many excellent frameworks, papers, attacks, safety, and so forth.  But new GenAI systems are subject to all new classes of attacks and it has been difficult to find projects and companies that solve these problems as they rarely shine through the noise of "AI security" as a phrase.
 
 If you want to contribute, create a PR.
 
-## Related awesome lists
+### Related awesome lists
 
 * [ottosulin/awesome-ai-security](https://github.com/ottosulin/awesome-ai-security) - AI security related frameworks, attacks, tools and papers
 * [deepspaceharbor/awesome-ai-security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) - AI security resources including attacks, examples, and code
@@ -15,13 +17,13 @@ If you want to contribute, create a PR.
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks) - An awesome list of papers on privacy attacks against machine learning
 * [awesome-ml-security](https://github.com/trailofbits/awesome-ml-security) - Trail of Bits' machine learning security references, guidance, and tools
 
-## Infographic
+### Infographic summary
 
 As an experiment, we'll try to keep an [infographic of awesome ai security solutions](awesome-ai-security-infographic.svg) up-to-date as an open source SVG file. This will be a fast visual overview with a mix of logos and text.
 
-<a xlink:href="http://localhost" xlink:title="">
+![_Graphic overview of awesome AI security_](awesome-ai-security-infographic.svg)
 
-## Contents
+### Contents
 
 * [Confidential Computing](#confidential-computing)
 * [Encryption and Data Protection](#encryption-and-data-protection)
@@ -36,6 +38,8 @@ As an experiment, we'll try to keep an [infographic of awesome ai security solut
 
 ## Confidential Computing
 
+_Solutions that use secure enclaves and confidential computing to keep the data in parts of AI workflows private._
+
 * [Fortanix Confidential AI](https://www.fortanix.com/platform/confidential-ai) - Run AI models inside Intel SGX and other enclave technologies
 
 <!--
@@ -49,13 +53,15 @@ Leaving this here since they've now raised US$31M and have at least one rockstar
 
 ## Encryption and Data Protection
 
+_Products that protect AI data privacy by encrypting the data. Infrastructure-layer encryption like filesystem encryption do not belong here. Only application-layer encryption solutions are eligible._
+
 * [IronCore Labs' Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/) - Encrypt vector embeddings before sending to a vector database to secure the data in RAG workflows and other AI workflows [![code](https://img.shields.io/github/license/ironcorelabs/ironcore-alloy)](https://github.com/ironcorelabs/ironcore-alloy/)
 
 * [Enveil Secure AI](https://www.enveil.com/secure-ai/) - Train encrypted models and do encrypted inferences over them
 
 ## Governance
 
-_This category is for products that specifically track AI projects and produce reports to meet various AI and privacy regulations and/or frameworks._
+_Products that specifically track AI projects and produce reports to meet various AI and privacy regulations and/or frameworks._
 
 * [OneTrust AI Governance](https://www.onetrust.com/products/ai-governance/) - Track projects and apply frameworks to them
 * [Cranium AI Exposure Management Solution](https://www.cranium.ai) - Provide visibility into an AI system, characterize attack surfaces, and assess vulnerabilities in an organization
@@ -64,10 +70,12 @@ _This category is for products that specifically track AI projects and produce r
 
 ## Model Testing
 
+_Products that examine or test models for security issues of various kinds._
+
 * [HiddenLayer Model Scanner](https://hiddenlayer.com/model-scanner/) - Scan models for vulnerabilities and supply chain issues
 * [Plexiglass](https://github.com/kortex-labs/plexiglass) - A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs) [![code](https://img.shields.io/github/license/kortex-labs/plexiglass)](https://github.com/kortex-labs/plexiglass/)
 * [PurpleLlama](https://github.com/facebookresearch/PurpleLlama) - Set of tools from Meta to assess and improve LLM security [![code](https://img.shields.io/github/license/facebookresearch/PurpleLlama)](https://github.com/facebookresearch/PurpleLlama/)
-* [Garak](https://github.com/leondz/garak/) - A LLM vulnerability scanner [![code](https://img.shields.io/github/license/leondz/garak)](https://github.com/leondz/garak/)
+* [Garak](https://garak.ai/) - A LLM vulnerability scanner [![code](https://img.shields.io/github/license/leondz/garak)](https://github.com/leondz/garak/)
 * [CalypsoAI Platform](https://calypsoai.com/platform/) - Platform for testing and launching LLM applications securely
 * [Lakera Red](https://www.lakera.ai/ai-red-teaming) - Automated safety and security assessments for your GenAI applications
 * [jailbreak-evaluation](https://github.com/controllability/jailbreak-evaluation) - Python package for language model jailbreak evaluation [![code](https://img.shields.io/github/license/controllability/jailbreak-evaluation)](https://github.com/controllability/jailbreak-evaluation/)
@@ -78,7 +86,7 @@ _This category is for products that specifically track AI projects and produce r
 
 ## Prompt Firewall and Redaction
 
-_We've blended two categories here because some prompt firewalls just redact (and then reidentify) PII and private data while others focus on potential attacks and data leaks, but many do all of the above, making it hard to tease these categories apart._
+_Products that intercept prompts and responses and apply security or privacy rules to them. We've blended two categories here because some prompt firewalls just redact private data (and then reidentify in the response) while others focus on identifying and blocking attacks like injection attacks or stopping data leaks. Many of the products in this category do all of the above, which is why they've been combined._
 
 * [Protect AI Rebuff](https://playground.rebuff.ai) - A LLM prompt injection detector [![code](https://img.shields.io/github/license/protectai/rebuff)](https://github.com/protectai/rebuff/)
 * [Protect AI LLM Guard](https://protectai.com/llm-guard) - Suite of tools to protect LLM applications by helping you detect, redact, and sanitize LLM prompts and responses [![code](https://img.shields.io/github/license/protectai/llm-guard)](https://github.com/protectai/llm-guard/)
@@ -93,11 +101,15 @@ _We've blended two categories here because some prompt firewalls just redact (an
 
 ## QA
 
+_Products that add quality controls and testing for GenAI workflows other than express testing of models. These tend to focus more on prompts and APIs._
+
 * [Freeplay AI](https://freeplay.ai) - Test and track prompts, their performance and versions over time
 * [Prompt Security Fuzzer](https://www.prompt.security/fuzzer) - Open-source tool to help you harden your GenAI applications [![code](https://img.shields.io/github/license/prompt-security/ps-fuzz)](https://github.com/prompt-security/ps-fuzz/)
 * [LLMFuzzer](https://github.com/mnns/LLMFuzzer): Open-source fuzzing framework specifically designed for LLMs, especially for their integrations in applications via APIs [![code](https://img.shields.io/github/license/mnns/LLMFuzzer)](https://github.com/mnns/LLMFuzzer/)
 
 ## Training Data Protection
+
+_Products that specifically address private data in the training of models and sometimes also in prompts to models that have been trained using their protections._
 
 * [Synthesis AI](https://synthesis.ai) - Simulation and synthetic data for computer vision training
 * [Protopia AI](https://protopia.ai) - "Stained glass transforms" of text and image data when training preserves privacy in model and inferences
@@ -115,12 +127,13 @@ _We've blended two categories here because some prompt firewalls just redact (an
 
 ------
 
-## Contributing
+## Project Details
+### Contributing
 
 Contributions are welcome.  Add new items, suggest changes to categories or descriptions, etc. We're not aiming to be comprehensive, but to provide a short list of the most notable solutions in each category.
 
 That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](./contributing.md) file in this repo.
 
-## License
+### License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/zmre/awesome-security-for-ai">Awesome Security Solutions for AI Systems</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/zmre">@zmre</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
