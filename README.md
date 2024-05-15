@@ -31,7 +31,7 @@ As an experiment, we'll try to keep an [infographic of awesome ai security solut
 * [Model Testing](#model-testing)
 * [Prompt Firewall and Redaction](#prompt-firewall-and-redaction)
 * [QA](#qa)
-* [Training Protection](#training-protection)
+* [Training Data Protection](#training-data-protection)
 * [Contributing](#contributing)
 
 ------
