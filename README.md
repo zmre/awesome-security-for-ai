@@ -21,7 +21,7 @@ As an experiment, we'll try to keep an [infographic of awesome ai security solut
 
 <a xlink:href="http://localhost" xlink:title="">
 
-## Solution Categories / Table of Contents
+## Contents
 
 * [Confidential Computing](#confidential-computing)
 * [Encryption and Data Protection](#encryption-and-data-protection)
@@ -49,10 +49,13 @@ Leaving this here since they've now raised US$31M and have at least one rockstar
 
 ## Encryption and Data Protection
 
-* [IronCore Labs' Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/) - Encrypt vector embeddings before sending to a vector database ![GitHub Repo stars](https://img.shields.io/github/stars/ironcorelabs/ironcore-alloy?style=social)
+* [IronCore Labs' Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/) - Encrypt vector embeddings before sending to a vector database to secure the data in RAG workflows and other AI workflows [![code](https://img.shields.io/github/license/ironcorelabs/ironcore-alloy)](https://github.com/ironcorelabs/ironcore-alloy/)
+
 * [Enveil Secure AI](https://www.enveil.com/secure-ai/) - Train encrypted models and do encrypted inferences over them
 
 ## Governance
+
+_This category is for products that specifically track AI projects and produce reports to meet various AI and privacy regulations and/or frameworks._
 
 * [OneTrust AI Governance](https://www.onetrust.com/products/ai-governance/) - Track projects and apply frameworks to them
 * [Cranium AI Exposure Management Solution](https://www.cranium.ai) - Provide visibility into an AI system, characterize attack surfaces, and assess vulnerabilities in an organization
@@ -62,13 +65,12 @@ Leaving this here since they've now raised US$31M and have at least one rockstar
 ## Model Testing
 
 * [HiddenLayer Model Scanner](https://hiddenlayer.com/model-scanner/) - Scan models for vulnerabilities and supply chain issues
-* [Plexiglass](https://github.com/kortex-labs/plexiglass) - A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs) ![GitHub Repo stars](https://img.shields.io/github/stars/kortex-labs/plexiglass?style=social)
-* [PurpleLlama](https://github.com/facebookresearch/PurpleLlama) - Set of tools from Meta to assess and improve LLM security ![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/PurpleLlama?style=social)
-* [Garak](https://github.com/leondz/garak/) - A LLM vulnerability scanner ![GitHub Repo stars](https://img.shields.io/github/stars/leondz/garak?style=social)
-* [LLMFuzzer](https://github.com/mnns/LLMFuzzer): Open-source fuzzing framework specifically designed for LLMs, especially for their integrations in applications via APIs ![GitHub Repo stars](https://img.shields.io/github/stars/mnns/LLMFuzzer?style=social)
-* [CalypsoAI Platform](https://calypsoai.com/platform/) - The industry’s most advanced platform for testing and launching LLM applications securely
+* [Plexiglass](https://github.com/kortex-labs/plexiglass) - A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs) [![code](https://img.shields.io/github/license/kortex-labs/plexiglass)](https://github.com/kortex-labs/plexiglass/)
+* [PurpleLlama](https://github.com/facebookresearch/PurpleLlama) - Set of tools from Meta to assess and improve LLM security [![code](https://img.shields.io/github/license/facebookresearch/PurpleLlama)](https://github.com/facebookresearch/PurpleLlama/)
+* [Garak](https://github.com/leondz/garak/) - A LLM vulnerability scanner [![code](https://img.shields.io/github/license/leondz/garak)](https://github.com/leondz/garak/)
+* [CalypsoAI Platform](https://calypsoai.com/platform/) - Platform for testing and launching LLM applications securely
 * [Lakera Red](https://www.lakera.ai/ai-red-teaming) - Automated safety and security assessments for your GenAI applications
-* [jailbreak-evaluation](https://github.com/controllability/jailbreak-evaluation) - An easy-to-use Python package for language model jailbreak evaluation ![GitHub Repo stars](https://img.shields.io/github/stars/controllability/jailbreak-evaluation?style=social)
+* [jailbreak-evaluation](https://github.com/controllability/jailbreak-evaluation) - Python package for language model jailbreak evaluation [![code](https://img.shields.io/github/license/controllability/jailbreak-evaluation)](https://github.com/controllability/jailbreak-evaluation/)
 * [Patronus AI](https://www.patronus.ai) - Automated testing of models to detect PII, copyrighted materials, and sensitive information in models
 * [Adversa Red Teaming](https://adversa.ai/ai-red-teaming-llm/) - Continuous AI red teaming for LLMs
 * [Advai](https://www.advai.co.uk) - Automates the tasks of stress-testing, red-teaming, and evaluating your AI systems for critical failure
@@ -76,13 +78,13 @@ Leaving this here since they've now raised US$31M and have at least one rockstar
 
 ## Prompt Firewall and Redaction
 
-We've blended two categories here because some prompt firewalls just redact (and then reidentify) PII and private data while others focus on potential attacks and data leaks, but many do all of the above, making it hard to tease these categories apart.
+_We've blended two categories here because some prompt firewalls just redact (and then reidentify) PII and private data while others focus on potential attacks and data leaks, but many do all of the above, making it hard to tease these categories apart._
 
-* [Protect AI Rebuff](https://github.com/protectai/rebuff) - A LLM prompt injection detector ![GitHub Repo stars](https://img.shields.io/github/stars/protectai/rebuff?style=social)
-* [Protect AI LLM Guard](https://protectai.com/llm-guard) - Suite of tools to protect LLM applications by helping you detect, redact, and sanitize LLM prompts and responses ![GitHub Repo stars](https://img.shields.io/github/stars/laiyer-ai/llm-guard?style=social)
+* [Protect AI Rebuff](https://playground.rebuff.ai) - A LLM prompt injection detector [![code](https://img.shields.io/github/license/protectai/rebuff)](https://github.com/protectai/rebuff/)
+* [Protect AI LLM Guard](https://protectai.com/llm-guard) - Suite of tools to protect LLM applications by helping you detect, redact, and sanitize LLM prompts and responses [![code](https://img.shields.io/github/license/protectai/llm-guard)](https://github.com/protectai/llm-guard/)
 * [HiddenLayer AI Detection and Response](https://hiddenlayer.com/aidr/) - Proactively defend against threats to your LLMs
 * [Robust Intelligence AI Firewall](https://www.robustintelligence.com/platform/ai-firewall-guardrails) - Real-time protection, automatically configured to address the vulnerabilities of each model
-* [Vigil](https://github.com/deadbits/vigil-llm) - Detect prompt injections, jailbreaks, and other potentially risky Large Language Model (LLM) inputs ![GitHub Repo stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social)
+* [Vigil LLM](https://github.com/deadbits/vigil-llm) - Detect prompt injections, jailbreaks, and other potentially risky Large Language Model (LLM) inputs [![code](https://img.shields.io/github/license/deadbits/vigil-llm)](https://github.com/deadbits/vigil-llm/)
 * [Lakera Guard](https://www.lakera.ai/lakera-guard) - Protection from prompt injections, data loss, and toxic content
 * [Arthur Shield](https://www.arthur.ai/product/shield) - Built-in, real-time firewall protection against the biggest LLM risks
 * [Prompt Security](https://www.prompt.security) - SDK and proxy for protection against common prompt attacks
@@ -92,7 +94,8 @@ We've blended two categories here because some prompt firewalls just redact (and
 ## QA
 
 * [Freeplay AI](https://freeplay.ai) - Test and track prompts, their performance and versions over time
-* [Prompt Security Fuzzer](https://github.com/prompt-security/ps-fuzz) - Open-source tool to help you harden your GenAI applications ![GitHub Repo stars](https://img.shields.io/github/stars/prompt-security/ps-fuzz?style=social)
+* [Prompt Security Fuzzer](https://www.prompt.security/fuzzer) - Open-source tool to help you harden your GenAI applications [![code](https://img.shields.io/github/license/prompt-security/ps-fuzz)](https://github.com/prompt-security/ps-fuzz/)
+* [LLMFuzzer](https://github.com/mnns/LLMFuzzer): Open-source fuzzing framework specifically designed for LLMs, especially for their integrations in applications via APIs [![code](https://img.shields.io/github/license/mnns/LLMFuzzer)](https://github.com/mnns/LLMFuzzer/)
 
 ## Training Data Protection
 
@@ -117,5 +120,7 @@ We've blended two categories here because some prompt firewalls just redact (and
 Contributions are welcome.  Add new items, suggest changes to categories or descriptions, etc. We're not aiming to be comprehensive, but to provide a short list of the most notable solutions in each category.
 
 That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](./contributing.md) file in this repo.
+
+## License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/zmre/awesome-security-for-ai">Awesome Security Solutions for AI Systems</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/zmre">@zmre</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
