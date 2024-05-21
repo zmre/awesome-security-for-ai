@@ -83,6 +83,7 @@ _Products that examine or test models for security issues of various kinds._
 * [Adversa Red Teaming](https://adversa.ai/ai-red-teaming-llm/) - Continuous AI red teaming for LLMs
 * [Advai](https://www.advai.co.uk) - Automates the tasks of stress-testing, red-teaming, and evaluating your AI systems for critical failure
 * [Mindgard AI](https://mindgard.ai) - Identifies and remediates risks across AI models, GenAI, LLMs along with AI-powered apps and chatbots
+* [Protect AI Guardian](https://protectai.com/guardian) - Scan models for security issues or policy violations with auditing and reporting
 
 ## Prompt Firewall and Redaction
 
