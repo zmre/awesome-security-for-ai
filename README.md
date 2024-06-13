@@ -1,13 +1,7 @@
-<!--lint ignore double-link-->
 # Awesome Security Solutions for AI Systems [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of solutions that secure GenAI systems and LLMs
 
-A curated list of awesome solutions to hard AI security problems and risks.  This stands in contrast to using AI for security (for offense or defense) and is explicitly meant to link to software and solutions that help solve the problems
-
-Other lists cover the many excellent frameworks, papers, attacks, safety, and so forth.  But new GenAI systems are subject to all new classes of attacks and it has been difficult to find projects and companies that solve these problems as they rarely shine through the noise of "AI security" as a phrase.
-
-If you want to contribute, create a PR.
 
 ## Contents
 
@@ -119,5 +113,5 @@ _Products that specifically address private data in the training of models and s
 
 Contributions are welcome.  Add new items, suggest changes to categories or descriptions, etc. We're not aiming to be comprehensive, but to provide a short list of the most notable solutions in each category.
 
-That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](./contributing.md) file in this repo.
+That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](contributing.md) file in this repo.
 
