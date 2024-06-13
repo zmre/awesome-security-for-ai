@@ -1,4 +1,3 @@
-<!--lint ignore double-link-->
 # Awesome Security Solutions for AI Systems [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of solutions that secure GenAI systems and LLMs
@@ -119,5 +118,5 @@ _Products that specifically address private data in the training of models and s
 
 Contributions are welcome.  Add new items, suggest changes to categories or descriptions, etc. We're not aiming to be comprehensive, but to provide a short list of the most notable solutions in each category.
 
-That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](./contributing.md) file in this repo.
+That said, there are some rules as there is an established format and approach. Please carefully read the [guidelines for contributing in the `contributing.md`](contributing.md) file in this repo.
 
