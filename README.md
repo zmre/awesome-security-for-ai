@@ -1,3 +1,4 @@
+<!--lint ignore double-link-->
 # Awesome Security Solutions for AI Systems [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of solutions that secure GenAI systems and LLMs
