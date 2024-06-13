@@ -100,6 +100,7 @@ _Products that intercept prompts and responses and apply security or privacy rul
 * [Prompt Security](https://www.prompt.security) - SDK and proxy for protection against common prompt attacks
 * [Private AI](https://www.private-ai.com) - Detect, anonymize, and replace PII with less than half the error rate of alternatives
 * [DynamoGuard](https://dynamo.ai/platform/dynamoguard) - Identify / defend against any type of non-compliance as defined by your specific AI policies and catch attacks
+* [Skyflow LLM Privacy Vault](https://www.skyflow.com/product/llm-privacy-vault) - Redacts PII from prompts flowing to LLMs
 
 ## QA
 
